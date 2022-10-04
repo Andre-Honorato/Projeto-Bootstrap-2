@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/custom.css" />
-    <title>Projeto</title>
+    <title>Portal Beatles</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="./index.html">Projeto</a>
+            <a class="navbar-brand font-weight-bold" href="./index.html">Portal Beatles</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,9 +21,9 @@
             <div class="collapse navbar-collapse ml-2" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./pages/checkout.html">
+                        <a class="nav-link btn btn-primary" href="./pages/checkout.html">
                             <i class="fas fa-shopping-cart" style="font-size: 1.3rem"></i>
-                            <span class="ml-2">Meu carrinho</span> 
+                            <span class="ml-2">Meu carrinho</span>
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -40,55 +40,47 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="first-slide"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="First slide" />
+                    <img class="first-slide img-fluid" src="./img/carrossel/beatles_1.webp" alt="First slide" />
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Example headline.</h1>
+                            <h1>Vídeo inédito dos Beatles é divulgado no Japão</h1>
                             <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                                Donec id elit non mi porta gravida at eget metus. Nullam id
-                                dolor id nibh ultricies vehicula ut id elit.
+                                As imagens de um registro da única turnê da banda, em 1966, foram liberadas após uma
+                                longa batalha judicial no país
                             </p>
                             <p>
-                                <a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
+                                <a class="btn btn-lg btn-primary" href="./pages/beatles1.html" role="button">Ler
+                                    mais</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="second-slide"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Second slide" />
+                    <img class="second-slide" src="./img/carrossel/beatles_2.webp" alt="Second slide" />
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
+                            <h1>Ex-Beatles Ringo Starr cancela shows por causa de doença misteriosa</h1>
                             <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                                Donec id elit non mi porta gravida at eget metus. Nullam id
-                                dolor id nibh ultricies vehicula ut id elit.
+                                Estabelecimento onde o cantor se apresentaria revelou que ele está doente, mas não deu
+                                detalhes sobre a enfermidade
                             </p>
                             <p>
-                                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">Ler mais</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="third-slide"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Third slide" />
+                    <img class="third-slide" src="./img/carrossel/beatlles_3.jpg" alt="Third slide" />
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>One more for good measure.</h1>
+                            <h1>Álbum “Revolver” dos Beatles ganha reedição expandida</h1>
                             <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                                Donec id elit non mi porta gravida at eget metus. Nullam id
-                                dolor id nibh ultricies vehicula ut id elit.
+                                O álbum Revolver dos Beatles, de 1966, vai ganhar uma edição expandida que está
+                                programada para chegar ao mercado em 28 de outubro
                             </p>
                             <p>
-                                <a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">Ler mais</a>
                             </p>
                         </div>
                     </div>
@@ -103,112 +95,97 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <section class="jumbotron text-center pt-4">
+            <div class="container">
+                <h1 class="jumbotron-heading text-primary">Últimas notícias</h1>
+                <p class="lead text-muted">Fique por dentro das últimas novidades do mundo dos Beatles!</p>
+            </div>
+        </section>
         <div class="container mb-2 d-flex justify-content-center">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                         <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 text-primary">World</strong>
+                            <strong class="d-inline-block mb-2 text-primary">Notícia</strong>
                             <h3 class="mb-0">
-                                <a class="text-dark" href="#">Featured post</a>
+                                <a class="text-dark" href="#">Vídeo inédito dos Beatles é divulgado no Japão</a>
                             </h3>
-                            <div class="mb-1 text-muted">Nov 12</div>
-                            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                                lead-in to additional content.</p>
-                            <a href="#">Continue reading</a>
+                            <div class="mb-1 text-muted">Out 03</div>
+                            <p class="card-text mb-auto">As imagens de um registro da única turnê da banda, em 1966,
+                                foram liberadas após uma longa batalha judicial no país</p>
+                            <a class="mt-3" href="#">Continue lendo</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                         <div class="card-body d-flex flex-column align-items-start">
-                            <strong class="d-inline-block mb-2 text-success">Design</strong>
+                            <strong class="d-inline-block mb-2 text-primary">Notícia</strong>
                             <h3 class="mb-0">
-                                <a class="text-dark" href="#">Post title</a>
+                                <a class="text-dark" href="#">Ex-Beatles Ringo Starr cancela shows por causa de doença
+                                    misteriosa</a>
                             </h3>
-                            <div class="mb-1 text-muted">Nov 11</div>
-                            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                                lead-in to additional content.</p>
-                            <a href="#">Continue reading</a>
+                            <div class="mb-1 text-muted">Set 27</div>
+                            <p class="card-text mb-auto">Estabelecimento onde o cantor se apresentaria revelou que ele
+                                está doente, mas não deu detalhes sobre a enfermidade</p>
+                            <a class="mt-3" href="#">Continue lendo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 mx-auto">
+                    <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-success">Música</strong>
+                            <h3 class="mb-0">
+                                <a class="text-dark" href="#">Álbum “Revolver” dos Beatles ganha reedição expandida</a>
+                            </h3>
+                            <div class="mb-1 text-muted">Set 11</div>
+                            <p class="card-text mb-auto">O álbum Revolver dos Beatles, de 1966, vai ganhar uma edição
+                                expandida que está programada para chegar ao mercado em 28 de outubro</p>
+                            <a class="mt-3" href="#">Continue lendo</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         </div>
-        <!-- <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Album example</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
-        </div>
-      </section> -->
-        <div class="container d-flex justify-content-center">
+        <section class="jumbotron text-center pt-5">
+            <div class="container">
+                <h1 class="jumbotron-heading text-primary">Albuns disponíveis para compra</h1>
+                <p class="lead text-muted">Adquira já o seu album favorito dos Beatles!</p>
+            </div>
+        </section>
+        <div class="container marketing pb-5">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top"
-                            src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="./img/albuns/Abbey_Road.jpg" alt="Generic placeholder image"
+                        width="180" height="180">
+                    <h2 class="mt-4">Abbey Road</h2>
+                    <a tabindex="0" href="./pages/checkout.html" class="btn btn-success mt-3 text-white" role="button" data-toggle="popover"
+                        data-trigger="focus" title="Produto adicionado ao seu carrinho" data-content="">Adicionar ao
+                        carrinho<i class="fas fa-plus ml-1"></i></a></p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="./img/albuns/The_Beatles_-_Let_It_Be.jpg"
+                        alt="Generic placeholder image" width="180" height="180">
+                    <h2 class="mt-4">Let It Be</h2>
+                    <a tabindex="0" href="./pages/checkout.html" class="btn btn-success mt-3 text-white" role="button" data-toggle="popover"
+                        data-trigger="focus" title="Produto adicionado ao seu carrinho" data-content="">Adicionar ao
+                        carrinho <i class="fas fa-plus ml-1"></i></a></p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-                            alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle" src="./img/albuns/The_Beatles_-_Help!.jpg"
+                        alt="Generic placeholder image" width="180" height="180">
+                    <h2 class="mt-4">Help!</h2>
+                    <a tabindex="0" href="./pages/checkout.html" class="btn btn-success mt-3 text-white" role="button" data-toggle="popover"
+                        data-trigger="focus" title="Produto adicionado ao seu carrinho" data-content="">Adicionar ao
+                        carrinho<i class="fas fa-plus ml-1"></i></a></p>
                 </div>
             </div>
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
-        </div>
+        <div class="container text-muted">&copy; Portal Beatles</div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
